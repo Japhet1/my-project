@@ -1,0 +1,171 @@
+
+    {
+        "nav" : {
+            "name": "Gunstein",
+            "menu": {
+                "about": "About",
+                "skill": "Skill",
+                "project": "Project",
+                "education": "Education",
+                "interest": "Interest",
+                "contact": "Contact"
+            }
+        },
+        "header": {
+            "welcome": "Hello! i'm Japhet Passah",
+            "position": "Software Developer.",
+            "summary": "I am an enthusiastic and detail-oriented Junior Software Developer who is eager to contribute to dynamic projects and learn from experienced mentors in the software development industry."
+        },
+        "skill": {
+            "frontEnd": {
+                "name": "Front-end",
+                "html": "Html",
+                "css": "CSS",
+                "typescript": "TypeScript",
+                "javascript": "JavaScript",
+                "react": "React",
+                "next": "Next JS",
+                "tailwind": "Tailwind CSS",
+                "bootstrap": "Bootstrap"
+            },
+            "backEnd": {
+                "name": "Back-end",
+                "node": "Node JS",
+                "express": "Express JS",
+                "rest": "Rest API",
+                "json": "Json"
+            },
+            "database": {
+                "name": "Database",
+                "mongo": "MongoDB"
+            },
+            "design": {
+                "name": "Design",
+                "figma": "Figma"
+            },
+            "professional": {
+                "name": "Professional Skills",
+                "first": "Adaptability",
+                "second": "Teamwork",
+                "third": "Collaboration"
+            }
+        },
+        "project": {
+            "devjobs": {
+                "name": "Devjobs Web App",
+                "description": "Devjobs-app is a web application where someone can search for different developer and engineer jobs. You can search by filtering base on company, position, and country.",
+                "stack": [
+                    "Html, ",
+                    "CSS, ",
+                    "JavaScript, ",
+                    "React, ",
+                    "Bootstrap, ",
+                    "Json"
+                ]
+            },
+            "attendance": {
+                "name": "Attendance App",
+                "description": "Devjobs-app is a web application where someone can search for different developer and engineer jobs. You can search by filtering base on company, position, and country.",
+                "stack": [
+                    "Html, ",
+                    "CSS, ",
+                    "JavaScript, ",
+                    "React, ",
+                    "Bootstrap, ",
+                    "Node JS, ",
+                    "Express JS, ",
+                    "MongoDB"
+                ]
+            },
+            "horizon": {
+                "name": "KD-Horizon",
+                "description": "Devjobs-app is a web application where someone can search for different developer and engineer jobs. You can search by filtering base on company, position, and country.",
+                "stack": [
+                    "Html, ",
+                    "CSS, ",
+                    "Next JS, ",
+                    "Tailwind CSS"
+                ]
+            }
+        },
+        "education": {
+            "first": {
+                "name": "Certificate of participation in Software Development Graduate Programme",
+                "company": "Amalitech",
+                "date": "June 2022 - March 2023",
+                "country": "Accra-Ghana",
+                "website": "https://amalitech.org/"
+            },
+            "second": {
+                "name": "Certificate in Comprehensive JavaScript",
+                "company": "Codecademy",
+                "date": "August 2022",
+                "country": "Accra-Ghana",
+                "website": "https://www.codecademy.com/"
+            },
+            "third": {
+                "name": "BSc Information Technology",
+                "company": "Accra Institute of Technology",
+                "date": "September 2016 - December 2021",
+                "country": "Accra-Ghana",
+                "website": "https://www.ait.edu.gh/"
+            },
+            "fourth": {
+                "name": "Diploma in Database Technology",
+                "company": "IPMC College of Technology",
+                "date": "May 2013 - November 2014",
+                "country": "Accra-Ghana",
+                "website": "https://www.ipmctraining.com/"
+            },
+            "fifth": {
+                "name": "Youtube channels Tutorial",
+                "netNinja": {
+                    "name": "Net Ninja:",
+                    "pointOne": "MERN Stack",
+                    "pointTwo": "MERN Athentication",
+                    "pointThree": "Complete MongoDB",
+                    "pointFour": "Node.Js Crash Course",
+                    "pointFive": "TypeScript",
+                    "pointSix": "Next.Js Masterclass",
+                    "pointSeven": "React Reuter"
+                },
+                "codevolution": {
+                    "name": "Codevolution:",
+                    "pointOne": "redux Toolkit",
+                    "pointTwo": "React Testing",
+                    "pointThree": "Material UI"
+                }
+             
+            }
+        },
+        "interest": {
+            "languages": {
+                "name": "Languages",
+                "first": {
+                    "name": "English",
+                    "level": "Advance"
+                },
+                "second": {
+                    "name": "French",
+                    "level": "Advance"
+                }
+                ,
+                "third": {
+                    "name": "German",
+                    "level": "Beginner"
+                }
+            },
+            "hobbies": {
+                "name": "Hobbies",
+                "movie": "Movie",
+                "music": "Music",
+                "football": "Football"
+            }
+        },
+        "contact": {
+            "phone": "+(233) 557-444-157",
+            "whatsapp": "+(233) 557-444-157",
+            "mail": "gunstein.dev@gmail.com"
+        }
+        
+    }

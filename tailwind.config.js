@@ -7,10 +7,14 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        bahnschrift: 'Bahnschrift'
+        rajdhani: 'Rajdhani'
+      },
+      backgroundImage: {
+        hero: "url('/5.jpg')"
       }
      
     },
   },
   plugins: [],
+  darkMode: "class"
 }

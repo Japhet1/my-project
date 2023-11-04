@@ -1,80 +1,80 @@
 import { BsDot } from "react-icons/bs";
 
-const Education = () => {
+const Education = ({ educationData }) => {
   return (
-    <main className="text-center font-bahnschrift p-10 mt-10 border-b border-red-500">
+    <main className="text-center font-rajdhani p-10 mt-10 border-b border-orange-200 mx-20">
         <div>
-            <h1 className="text-red-500 text-5xl font-bold">Education and Training</h1>
+            <h1 className="text-orange-500 text-5xl font-bold">Education and Training</h1>
         </div>
         <div className="my-16">
             <div className="grid grid-cols-12 text">
-                <div className="col-span-4 text-xl bg-red-300 text-left p-10">
-                    <h1 className="text-2xl font-bold mb-4">Certificate of participation <br/> in Software Development Graduate Programme</h1>
+                <div className="col-span-4 text-xl bg-orange-300 text-left p-10">
+                    <h1 className="text-2xl font-bold mb-4">{educationData.first.name}</h1>
                     <div className="leading-8">
-                        <p>Amalitech</p>
-                        <p>June 2022 - March 2023</p>
-                        <p>Accra, Ghana</p>
-                        <a href="">https://amalitech.org/</a>
+                        <p>{educationData.first.company}</p>
+                        <p>{educationData.first.date}</p>
+                        <p>{educationData.first.country}</p>
+                        <a href="">{educationData.first.website}</a>
                     </div>
                 </div>
                 
-                <div className="col-span-4 text-xl bg-red-400 text-left p-10">
-                    <h1 className="text-2xl font-bold mb-4">Certificate <br/> in Comprehensive JavaScript</h1>
+                <div className="col-span-4 text-xl bg-orange-400 text-left p-10">
+                    <h1 className="text-2xl font-bold mb-4">{educationData.second.name}</h1>
                     <div className="leading-8">
-                        <p>Codecademy</p>
-                        <p>August 2022</p>
-                        <p>Accra, Ghana</p>
-                        <a href="">https://www.codecademy.com/</a>
+                        <p>{educationData.second.company}</p>
+                        <p>{educationData.second.date}</p>
+                        <p>{educationData.second.country}</p>
+                        <a href="">{educationData.second.website}</a>
                     </div>
                 </div>
 
-                <div className="col-span-4 text-xl bg-red-100 text-left p-10">
-                    <h1 className="text-2xl font-bold mb-4">BSc <br/> Information Technology</h1>
+                <div className="col-span-4 text-xl bg-orange-100 text-left p-10">
+                    <h1 className="text-2xl font-bold mb-4">{educationData.third.name}</h1>
                     <div className="leading-8">
-                        <p>Accra Institute of Technology</p>
-                        <p>September 2016 - December 2021</p>
-                        <p>Accra, Ghana</p>
-                        <a href="">https://www.ait.edu.gh/</a>
+                        <p>{educationData.third.company}</p>
+                        <p>{educationData.third.date}</p>
+                        <p>{educationData.third.country}</p>
+                        <a href="">{educationData.third.website}</a>
                     </div>
                 </div>
             </div>
 
             <div className="grid grid-cols-12  ">
-                <div className="col-span-4 text-xl bg-red-500 text-left p-10">
-                    <h1 className="text-2xl font-bold mb-4">Diploma <br/> in Database Technology</h1>
+                <div className="col-span-4 text-xl bg-orange-500 text-left p-10">
+                    <h1 className="text-2xl font-bold mb-4">{educationData.fourth.name}</h1>
                     <div className="leading-8">
-                        <p>IPMC College of Technology</p>
-                        <p>May 2013 - November 2014</p>
-                        <p>Accra, Ghana</p>
-                        <a href="">https://www.ipmctraining.com/</a>
+                        <p>{educationData.fourth.company}</p>
+                        <p>{educationData.fourth.date}</p>
+                        <p>{educationData.fourth.country}</p>
+                        <a href="">{educationData.fourth.website}</a>
                     </div>
                 </div>
 
-                <div className="col-span-8 text-xl bg-red-200 text-left p-10">
-                    <h1 className="text-2xl font-bold mb-4">Youtube channels Tutorial</h1>
+                <div className="col-span-8 text-xl bg-orange-200 text-left p-10">
+                    <h1 className="text-2xl font-bold mb-4">{educationData.fifth.name}</h1>
                     <div className="mb-4">
-                        <h1 className="text-xl font-bold">Net Ninja:</h1>
+                        <h1 className="text-xl font-bold">{educationData.fifth.netNinja.name}</h1>
                         <div className="flex items-center gap-4">
-                            <p className="flex items-center gap-2"><BsDot/>MERN Stack</p>
-                            <p className="flex items-center gap-2"><BsDot/>MERN Athentication</p>
-                            <p className="flex items-center gap-2"><BsDot/>Complete MongoDB</p>
+                            <p className="flex items-center gap-2"><BsDot/>{educationData.fifth.netNinja.pointOne}</p>
+                            <p className="flex items-center gap-2"><BsDot/>{educationData.fifth.netNinja.pointTwo}</p>
+                            <p className="flex items-center gap-2"><BsDot/>{educationData.fifth.netNinja.pointThree}</p>
                         </div>
                         <div className="flex items-center gap-4">
-                            <p className="flex items-center gap-2"><BsDot/>Node.Js Crash Course</p>
-                            <p className="flex items-center gap-2"><BsDot/>TypeScript</p>
-                            <p className="flex items-center gap-2"><BsDot/>Next.Js Masterclass</p>
+                            <p className="flex items-center gap-2"><BsDot/>{educationData.fifth.netNinja.pointFour}</p>
+                            <p className="flex items-center gap-2"><BsDot/>{educationData.fifth.netNinja.pointFive}</p>
+                            <p className="flex items-center gap-2"><BsDot/>{educationData.fifth.netNinja.pointSix}</p>
                         </div>
                         <div className="flex items-center gap-4">
-                            <p className="flex items-center gap-2"><BsDot/>React Reuter</p>                         
+                            <p className="flex items-center gap-2"><BsDot/>{educationData.fifth.netNinja.pointSeven}</p>                         
                         </div>
                     </div>
 
                     <div className="">
-                        <h1 className="text-xl font-bold">Codevolution:</h1>
+                        <h1 className="text-xl font-bold">{educationData.fifth.codevolution.name}</h1>
                         <div className="flex items-center gap-4">
-                            <p className="flex items-center gap-2"><BsDot/>Redux Toolkit</p>
-                            <p className="flex items-center gap-2"><BsDot/>React Testing</p>
-                            <p className="flex items-center gap-2"><BsDot/>Material UI</p>
+                            <p className="flex items-center gap-2"><BsDot/>{educationData.fifth.codevolution.pointOne}</p>
+                            <p className="flex items-center gap-2"><BsDot/>{educationData.fifth.codevolution.pointTwo}</p>
+                            <p className="flex items-center gap-2"><BsDot/>{educationData.fifth.codevolution.pointThree}</p>
                         </div>
                     </div>
                 </div>

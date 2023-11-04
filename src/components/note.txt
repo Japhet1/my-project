@@ -1,0 +1,178 @@
+ 
+ import { useRef, useEffect } from 'react';
+import { BsArrowUp } from "react-icons/bs";
+
+const ScrollToTop = () => {
+ const scrollContainer = useRef(null);
+
+ useEffect(() => {
+    const container = scrollContainer.current;
+    const content = container.children[0];
+    const height = content.offsetHeight;
+
+    setInterval(() => {
+      if (container.scrollTop <= 0) {
+        container.scrollTop = height;
+      } else {
+        container.scrollTop -= 1;
+      }
+    }, 20);
+ }, []);
+
+ return (
+    <div className="App" ref={scrollContainer}>
+      <div className="content">
+        {/* Your content goes here */}
+        <BsArrowUp className='text-6xl text-orange-500'/>
+      </div>
+    </div>
+ );
+};
+
+export default ScrollToTop;
+<div x-data="{scrollBackTop: false}" x-cloak>
+ 	<button
+		x-show="scrollBackTop"
+		x-on:scroll.window="scrollBackTop = ({window.pageYOffset > window.outerHeight * 0.5}) ? true : false"
+		x-on:click="$scroll('#top')"
+		aria-label="Back to top"
+		class="fixed bottom-0 right-0 p-2 mx-10 my-10 text-white bg-gray-800 hover:bg-gray-700 focus:outline-none">
+			<svg viewBox="0 0 20 20" fill="currentColor" class="w-6 h-6">
+				<path fill-rule="evenodd" d="M14.707 12.707A1 1 0 01-1.414 0L10 9.414l-3.293 3.293a1 1 0 01-1.414-1.414l4-4a1 1 0 011.414 0l4 4a1 1 0 010 1.414z" clip-rule="evenodd"></path>
+			</svg>
+	</button>
+</di>
+
+
+$(document).ready(function () {
+    $("#scrollButton").on("click", function () {
+        $("html, body").animate({ scrollTop: 0 }, "slow");
+    });
+});
+
+#scrollButton {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 999;
+}
+
+
+
+const ScrollToTopButton = () => {
+  return (
+    <button
+      aria-label='scroll to top'
+      className='w-12 h-12 transition-transform duration-200 flex fixed right-10 bottom-10 bg-primary rounded-full shadow-lg shadow-gray-900 justify-center items-center'
+    >
+      <svg
+        xmlns='http://www.w3.org/2000/svg'
+        fill='none'
+        viewBox='0 0 24 24'
+        strokeWidth={2}
+        stroke='currentColor'
+        className='w-6 h-6'
+      >
+        <path strokeLinecap='round' strokeLinejoin='round' d='M4.5 15.75l7.5-7.5 7.5 7.5' />
+      </svg>
+    </button>
+  );
+};
+export default ScrollToTopButton;
+
+import { useEffect } from 'react';
+const ScrollToTopButton = () => {
+  useEffect(() => {
+    const scrollCallback = () => {
+      const scrolledFromTop = window.scrollY;
+    };
+    window.addEventListener('scroll', scrollCallback);
+    scrollCallback();
+    // clean-up function
+    return () => {
+      window.removeEventListener('scroll', scrollCallback);
+    };
+  }, []);
+  // render here ...
+};
+export default ScrollToTopButton;
+
+import { useEffect, useState } from 'react';
+const ScrollToTopButton = () => {
+  const [shown, setShown] = useState(false);
+  useEffect(() => {
+    const scrollCallback = () => {
+      const scrolledFromTop = window.scrollY;
+      setShown(() => scrolledFromTop > 300);
+    };
+    window.addEventListener('scroll', scrollCallback);
+    scrollCallback();
+    // clean-up function
+    return () => {
+      window.removeEventListener('scroll', scrollCallback);
+    };
+  }, []);
+  return (
+    <button
+      aria-label='scroll to top'
+      className={`${
+        shown ? 'scale-100' : 'scale-0'
+      } w-12 h-12 transition-transform duration-200 flex fixed right-10 bottom-10 bg-primary rounded-full shadow-lg shadow-gray-900 justify-center items-center`}
+    >
+      {/* svg icon here*/}
+    </button>
+  );
+};
+export default ScrollToTopButton;
+
+const scrollToTop = () => {
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+};
+return (
+  <button
+    aria-label='scroll to top'
+    onClick={scrollToTop}
+    className={`${
+      shown ? 'scale-100' : 'scale-0'
+    } w-12 h-12 transition-transform duration-200 flex fixed right-10 bottom-10 bg-primary rounded-full shadow-lg shadow-gray-900 justify-center items-center`}
+  >
+    {/* svg icon here*/}
+  </button>
+);
+
+import { useEffect, useState, useCallback } from 'react';
+export default function useScrollToTop(threshold: number = 300) {
+  const [shown, setShown] = useState(false);
+  useEffect(() => {
+    const scrollCallback = () => {
+      const scrolledFromTop = window.scrollY;
+      setShown(() => scrolledFromTop > threshold);
+    };
+    window.addEventListener('scroll', scrollCallback);
+    scrollCallback();
+    return () => {
+      window.removeEventListener('scroll', scrollCallback);
+    };
+  }, []);
+  const scrollToTop = useCallback(() => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }, []);
+  return { shown, scrollToTop };
+}
+
+import useScrollToTop from './useScrollToTop.ts';
+const ScrollToTopButton = () => {
+  const { shown, scrollToTop } = useScrollToTop(300);
+  return (
+    <button
+      aria-label='scroll to top'
+      onClick={scrollToTop}
+      className={`${
+        shown ? 'scale-100' : 'scale-0'
+      } w-12 h-12 transition-transform duration-200 flex fixed right-10 bottom-10 bg-primary rounded-full shadow-lg shadow-gray-900 justify-center items-center`}
+    >
+      {/* svg icon here*/}
+    </button>
+  );
+};
+export default ScrollToTopButton;
