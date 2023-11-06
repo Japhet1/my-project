@@ -1,55 +1,61 @@
 
     {
         "nav" : {
-            "name": "Gunstein",
-            "menu": {
-                "about": "About",
-                "skill": "Skill",
-                "project": "Project",
-                "education": "Education",
-                "interest": "Interest",
-                "contact": "Contact"
-            }
+            "name": "Gunstein.dev",
+            "menu": [
+                {"link": "About me", "href": "/"},
+                {"link": "Skills", "href": "/"},
+                {"link": "Projects", "href": "/"},
+                {"link": "Education", "href": "/"},
+                {"link": "Interest", "href": "/"},
+                {"link": "Contact", "href": "/"}
+            ]
         },
         "header": {
             "welcome": "Hello! i'm Japhet Passah",
             "position": "Software Developer.",
-            "summary": "I am an enthusiastic and detail-oriented Junior Software Developer who is eager to contribute to dynamic projects and learn from experienced mentors in the software development industry."
+            "summary": "Enthusiastic and detail-oriented Junior Software Developer who is eager to contribute to dynamic projects and learn from experienced mentors in the software development industry."
         },
-        "skill": {
-            "frontEnd": {
+        "skill": [
+            {
                 "name": "Front-end",
-                "html": "Html",
-                "css": "CSS",
-                "typescript": "TypeScript",
-                "javascript": "JavaScript",
-                "react": "React",
-                "next": "Next JS",
-                "tailwind": "Tailwind CSS",
-                "bootstrap": "Bootstrap"
+                "stack": [
+                "Html ",
+                "CSS ",
+                "TypeScript ",
+                "JavaScript ",
+                "React ",
+                "Next.JS ",
+                "Tailwind ",
+                "Bootstrap"
+                ]
             },
-            "backEnd": {
+            {
                 "name": "Back-end",
-                "node": "Node JS",
-                "express": "Express JS",
-                "rest": "Rest API",
-                "json": "Json"
+                "stack": [
+                "Node.JS ",
+                "Express.JS ",
+                "Rest API ",
+                "Json"
+                ]
             },
-            "database": {
+            {
                 "name": "Database",
-                "mongo": "MongoDB"
+                "stack": [ "MongoDB"]
             },
-            "design": {
+            {
                 "name": "Design",
-                "figma": "Figma"
+                "stack": [ "Figma" ]
             },
-            "professional": {
+            {
                 "name": "Professional Skills",
-                "first": "Adaptability",
-                "second": "Teamwork",
-                "third": "Collaboration"
+                "stack": [
+                "Adaptability",
+                "Teamwork",
+                "Collaboration"
+                ]
             }
-        },
+        ],
         "project": {
             "devjobs": {
                 "name": "Devjobs Web App",
