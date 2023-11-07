@@ -7,7 +7,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        rajdhani: 'Rajdhani'
+        rajdhani: "Rajdhani"
       },
       backgroundImage: {
         hero: "url('/5.jpg')"
