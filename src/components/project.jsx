@@ -23,12 +23,12 @@ const Project = ({ projectData }) => {
                             </div>
                         </div>
                     </div>
-                    <div className="flex flex-wrap my-5 md:my-10 lg:my-10 px-4 gap-2 justify-center md:text-lg lg:text-md">
-                        {project.stack.map((project, id) => <h1 key={id} className="p-2 bg-orange-50 md:bg-orange-50 md:dark:bg-orange-950 dark:bg-orange-950">{project.item}</h1>)}
+                    <div className="flex flex-wrap my-5 md:my-10 lg:my-10 px-4 gap-2 justify-center md:text-sm lg:text-sm">
+                        {project.stack.map((project, id) => <h1 key={id} className="p-2 bg-orange-200 dark:bg-red-800  md:bg-orange-200 md:dark:bg-orange-800 lg:bg-orange-50 lg:dark:bg-orange-950">{project.item}</h1>)}
                     </div>
-                    <div className="grid grid-flow-row md:flex lg:flex justify-center gap-5 my-5">
-                        <button><a className="py-2 px-4 space-x-2 flex md:p-2 lg:px-4 items-bottom bg-orange-500 hover:text-orange-500 hover:bg-orange-100 hover:shadow-md text-white md:text-md transition-all lg:text-lg" href="https://github.com/Japhet1/devjobs-app" target="_blank" rel="noreferrer"><BsGithub className="text-lg md:text-xl lg:text-xl"/><h1>Source Code</h1><BsBoxArrowUpRight/></a></button>
-                        <button><a  className="py-2 px-4 space-x-2 flex md:p-2 lg:px-4 items-bottom bg-orange-500 hover:text-orange-500 hover:bg-orange-100 hover:shadow-md text-white md:text-md transition-all lg:text-lg" href="https://devjobs-web-app-seven.vercel.app/" target="_blank" rel="noreferrer"><SiVercel className="text-lg md:text-xl lg:text-xl"/><h1>Deploy link</h1><BsBoxArrowUpRight/></a></button>
+                    <div className="grid grid-flow-row md:flex lg:flex justify-center my-5">
+                        <button><a className="py-2 px-4 space-x-2 flex md:p-2 lg:px-4 items-bottom text-orange-500 font-semibold dark:text-white md:text-md transition-all lg:text-md" href="https://github.com/Japhet1/devjobs-app" target="_blank" rel="noreferrer"><h1>Source Code</h1><BsBoxArrowUpRight/></a></button>
+                        <button><a  className="py-2 px-4 space-x-2 flex md:p-2 lg:px-4 items-bottom text-orange-500 font-semibold dark:text-white md:text-md transition-all lg:text-md" href="https://devjobs-web-app-seven.vercel.app/" target="_blank" rel="noreferrer"><h1>Deploy link</h1><BsBoxArrowUpRight/></a></button>
                     </div>
                 </div>
             ))}

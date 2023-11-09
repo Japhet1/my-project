@@ -8,7 +8,7 @@ const Interest = ({ interestData }) => {
         </div>
         <div className="grid grid-cols-12 my-5 p-5">
             {interestData.map((interest, index) => (
-                <div key={index} className="col-span-6 hover:bg-orange-100 py-5 dark:text-white dark:hover:text-white dark:hover:bg-orange-900">
+                <div key={index} className="col-span-6 py-5 dark:text-white">
                     <div className="md:text-xl lg:text-2xl font-bold my-5"><h1>{interest.name}:</h1></div>
                     {interest.content.map((content, id) => <div key={id} className="md:text-lg lg:text-xl"><strong>{content.name}</strong><span className="ms-4">{content.item}</span></div>)}
                 </div>

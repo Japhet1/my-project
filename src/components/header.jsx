@@ -2,9 +2,9 @@ import { BsInstagram, BsTwitter, BsGithub, BsLinkedin, BsTiktok } from "react-ic
 import { BsDownload } from "react-icons/bs";
 function Header({ headerData }) {
   return (
-    <main id="about" className="text-center font-rajdhani items-center md:py-10 lg:px-32 lg:py-14 border-b border-orange-200 md:mx-10 dark:border-orange-900 scroll-mt-28">
+    <main id="about" className="text-center font-rajdhani items-center py-10 md:py-10 lg:px-32 lg:py-14 border-b border-orange-200 md:mx-10 dark:border-orange-900 scroll-mt-28">
       <div className="flex justify-center items-center">
-        <div className="w-28 rounded-full md:w-52 lg:w-52 shadow-md shadow-orange-300 text-center"  style={{}}>
+        <div className="w-28 rounded-full md:w-52 lg:w-52 shadow-md text-center"  style={{}}>
           <img className="rounded-full" src="/image.jpg" alt="my picture" />
         </div>
       </div>

@@ -12,7 +12,7 @@ const Skill = ({ skillData }) => {
                 {skillData.map((skill,index) => (
                     <div key={index} className="col-span-6 mb-10">
                         <div className="flex text-2xl md:text-3xl lg:text-4xl items-end gap-4">
-                            {skill.name === 'Front-end' ? <FaReact className="animate-spin text-orange-500"/> 
+                            {skill.name === 'Front-end' ? <FaReact className="animate-pulse text-orange-500"/> 
                             : skill.name === 'Back-end' ? <FaNodeJs className="animate-pulse text-orange-500"/>  
                             : skill.name === 'Database' ? <FaDatabase className="animate-pulse text-orange-500"/>
                             : skill.name === 'Design' ? <FaFigma className="animate-pulse text-orange-500"/>
