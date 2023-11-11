@@ -62,12 +62,10 @@
                 "description": "Devjobs-app is a web application where someone can search for different developer and engineer jobs. You can search by filtering base on company, position, and country.",
                 "src": "devjob-app.jpg",
                 "stack": [
-                    {"item": "Html"},
-                    {"item": "CSS"},
                     {"item": "JavaScript"},
                     {"item": "React"},
                     {"item": "Bootstrap"},
-                    {"item": "Json"}
+                    {"item": "API"}
                 ]
             },
             {
@@ -75,8 +73,6 @@
                 "description": "Devjobs-app is a web application where someone can search for different developer and engineer jobs. You can search by filtering base on company, position, and country.",
                 "src": "devjob-app.jpg",
                 "stack": [
-                    {"item": "Html"},
-                    {"item": "CSS"},
                     {"item": "JavaScript"},
                     {"item": "React"},
                     {"item": "Bootstrap"},
@@ -90,8 +86,7 @@
                 "description": "Devjobs-app is a web application where someone can search for different developer and engineer jobs. You can search by filtering base on company, position, and country.",
                 "src": "kd-horizon1.jpg",
                 "stack": [
-                    {"item": "Html"},
-                    {"item": "CSS"},
+                    {"item": "JavaScript"},
                     {"item": "Next JS"},
                     {"item": "Tailwind CSS"}   
                 ]

@@ -4,10 +4,10 @@
 @tailwind utilities;
 
 body {
-  @apply text-center bg-orange-50;
+  @apply text-center bg-blue-50;
 }
 
 .dark {
-  @apply bg-orange-950
+  @apply bg-blue-950
 }
 
