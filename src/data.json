@@ -36,7 +36,7 @@
                 "Node.JS",
                 "Express.JS",
                 "Rest API",
-                "Json"
+                "Prisma"
                 ]
             },
             {
@@ -65,7 +65,7 @@
                     {"item": "JavaScript"},
                     {"item": "React"},
                     {"item": "Bootstrap"},
-                    {"item": "API"}
+                    {"item": "Json data"}
                 ]
             },
             {
@@ -89,6 +89,30 @@
                     {"item": "JavaScript"},
                     {"item": "Next JS"},
                     {"item": "Tailwind CSS"}   
+                ]
+            },
+            {
+                "name": "Gunstein.dev",
+                "description": "Devjobs-app is a web application where someone can search for different developer and engineer jobs. You can search by filtering base on company, position, and country.",
+                "src": "kd-horizon1.jpg",
+                "stack": [
+                    {"item": "JavaScript"},
+                    {"item": "React"},
+                    {"item": "Vite"},
+                    {"item": "Json data"},
+                    {"item": "Tailwind CSS"}   
+                ]
+            },
+            {
+                "name": "Quiz-app",
+                "description": "Devjobs-app is a web application where someone can search for different developer and engineer jobs. You can search by filtering base on company, position, and country.",
+                "src": "kd-horizon1.jpg",
+                "stack": [
+                    {"item": "TypeScript"},
+                    {"item": "Next JS"},
+                    {"item": "Prisma"},
+                    {"item": "Tailwind CSS"},
+                    {"item": "PostgreSQL"}   
                 ]
             }
         ],

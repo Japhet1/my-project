@@ -2,9 +2,9 @@
 
 const Interest = ({ interestData }) => {
   return (
-    <main id="interest" className="text-center font-rajdhani md:py-10 lg:p-10 my-10 border-b border-blue-200 md:mx-10 lg:mx-20 dark:border-blue-900 scroll-mt-28 scroll-smooth">
+    <main id="interest" className="text-center font-gruppo md:py-10 lg:p-10 my-10 border-b border-gray-200 md:mx-10 lg:mx-20 dark:border-gray-900 scroll-mt-28 scroll-smooth">
         <div  className="">
-            <h1 className="text-blue-500 text-3xl md:text-4xl lg:text-5xl font-bold">Language & Hobby</h1>
+            <h1 className="text-blue-950 text-3xl md:text-4xl lg:text-5xl font-bold dark:text-blue-100">Language & Hobby</h1>
         </div>
         <div className="grid grid-cols-12 my-5 p-5">
             {interestData.map((interest, index) => (
