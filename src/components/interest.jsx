@@ -6,11 +6,11 @@ const Interest = ({ interestData }) => {
         <div  className="">
             <h1 className="text-blue-950 text-3xl md:text-4xl lg:text-5xl font-bold dark:text-blue-100">Language & Hobby</h1>
         </div>
-        <div className="grid grid-cols-12 my-5 p-5">
+        <div className="flex flex-wrap justify-center gap-20 my-5 p-5">
             {interestData.map((interest, index) => (
-                <div key={index} className="col-span-6 py-5 dark:text-white">
+                <div key={index} className="flex flex-wrap items-center py-5 dark:text-white">
                     <div className="md:text-xl lg:text-2xl font-bold my-5"><h1>{interest.name}:</h1></div>
-                    {interest.content.map((content, id) => <div key={id} className="md:text-lg lg:text-xl"><strong>{content.name}</strong><span className="ms-4">{content.item}</span></div>)}
+                    {interest.content.map((content, id) => <div key={id} className="md:text-lg lg:text-xl font-semibold text-blue-950 dark:text-slate-300"><h1 className="ms-4">{content.item}</h1></div>)}
                 </div>
             ) )} 
         </div>

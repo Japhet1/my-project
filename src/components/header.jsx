@@ -22,8 +22,8 @@ function Header({ headerData }) {
         </div>
         
         <div className="flex justify-center items-center mt-5 p-5 gap-10">
-          <button><a className="flex justify-center items-bottom gap-4 md:px-10 md:py-2 p-2 text-md md:text-lg lg:text-xl bg-blue-950 hover:bg-blue-100 hover:shadow-lg text-white hover:text-blue-950 transition-all rounded-md font-semibold" href="https://github.com/Japhet1" target="_blank" rel="noreferrer"><BsGithub className="text-xl md:text-2xl lg:text-2xl"/>Repository</a></button>
-          <button><a className="flex justify-center items-bottom gap-4 md:px-10 md:py-2 p-2 text-md md:text-lg lg:text-xl bg-blue-950 hover:bg-blue-100 hover:shadow-lg text-white hover:text-blue-950 transition-all rounded-md font-semibold" href="https://github.com/Japhet1" target="_blank" rel="noreferrer">Resume<BsDownload className="text-xl md:text-2xl lg:text-2xl"/></a></button>
+          <button><a className="flex justify-center items-bottom gap-4 md:px-10 md:py-2 p-2 text-md md:text-lg lg:text-xl bg-blue-950 lg:hover:bg-blue-100 hover:shadow-lg text-white hover:text-blue-950 transition-all rounded-md font-semibold" href="https://github.com/Japhet1" target="_blank" rel="noreferrer"><BsGithub className="text-xl md:text-2xl lg:text-2xl"/>Repository</a></button>
+          <button><a className="flex justify-center items-bottom gap-4 md:px-10 md:py-2 p-2 text-md md:text-lg lg:text-xl bg-blue-950 lg:hover:bg-blue-100 hover:shadow-lg text-white hover:text-blue-950 transition-all rounded-md font-semibold" href="https://github.com/Japhet1" target="_blank" rel="noreferrer">Resume<BsDownload className="text-xl md:text-2xl lg:text-2xl"/></a></button>
         </div>
       </div>
     </main>

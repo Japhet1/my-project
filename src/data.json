@@ -106,7 +106,7 @@
             {
                 "name": "Quiz-app",
                 "description": "Devjobs-app is a web application where someone can search for different developer and engineer jobs. You can search by filtering base on company, position, and country.",
-                "src": "kd-horizon1.jpg",
+                "src": "quiz-app.jpg",
                 "stack": [
                     {"item": "TypeScript"},
                     {"item": "Next JS"},
@@ -181,9 +181,9 @@
             {
                 "name": "Languages",
                 "content": [
-                    {"name": "English", "item": "Advance"},
-                    {"name": "French", "item": "Advance"},
-                    {"name": "German", "item": "Beginner"}
+                    {"item": "English"},
+                    {"item": "French"},
+                    {"item": "German"}
                 ]
             },
             {
