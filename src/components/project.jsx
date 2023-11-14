@@ -8,11 +8,11 @@ const Project = ({ projectData }) => {
         </div>
         <div className="lg:grid grid-cols-12 my-16 gap-5 md:p-10 md:text-center">
             {projectData.map((project, index) => (
-                <div key={index} className="col-span-4 mb-10 md:mb-16 lg:mb-0 dark:text-white lg:bg-gray-200 dark:lg:bg-gray-900 rounded-md">
+                <div key={index} className="col-span-4 mb-10 md:mb-16 lg:mb-0 dark:text-white lg:bg-gray-200 dark:lg:bg-gray-900 rounded-md lg:hover:shadow-lg lg:dark:hover:shadow-gray-100">
                     <div className="">
                         <div className="flex justify-start md:justify-center items-start">
-                            <div className="md:max-w-lg lg:w-full transition-all" style={{}}>
-                                <img className="lg:w-full lg:h-72" src={`/${project.src}`} alt="first project" />
+                            <div className="md:max-w-lg lg:w-full m-2 rounded-md transition-all hover:scale-90 bg-inherit" style={{}}>
+                                <img className="lg:w-full lg:h-72 rounded-md" src={`/${project.src}`} alt="first project" />
                             </div>
                         </div>
                         <div className="my-4 px-4">
