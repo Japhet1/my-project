@@ -16,14 +16,14 @@ const Project = ({ projectData }) => {
                             </div>
                         </div>
                         <div className="my-4 px-4">
-                            <div><h1 className="text-blue-950 dark:text-white md:text-2xl lg:text-2xl font-bold">{project.name}</h1></div>
+                            <div><h1 className="text-blue-950 dark:text-white text-xl md:text-2xl lg:text-2xl font-bold">{project.name}</h1></div>
                             <div className="mt-4 px-4">
-                                <p className="md:text-lg lg:text-base font-semibold text-slate-600 dark:text-slate-300 text-center leading-8">{project.description}</p>
+                                <p className="text-md md:text-lg lg:text-lg font-semibold text-slate-600 dark:text-slate-300 text-center leading-8">{project.description}</p>
                             </div>
                         </div>
                     </div>
                     <div className="flex flex-wrap my-4 md:my-10 lg:my-4 px-4 gap-2 justify-center md:text-sm lg:text-sm">
-                        {project.stack.map((project, id) => <h1 key={id} className="py-1 px-2 bg-gray-100 dark:bg-blue-950  md:bg-white md:dark:bg-blue-950 lg:bg-white lg:dark:bg-blue-950 rounded-md font-semibold">{project.item}</h1>)}
+                        {project.stack.map((project, id) => <h1 key={id} className="py-1 px-2 bg-gray-100 dark:bg-blue-950  md:bg-gray-100 md:dark:bg-blue-950 lg:bg-white lg:dark:bg-blue-950 rounded-md font-semibold">{project.item}</h1>)}
                     </div>
                     <div className="flex md:flex lg:flex justify-center my-5">
                         <button><a className="py-2 px-4 space-x-2 flex md:p-2 lg:px-4 items-bottom text-blue-950 font-semibold dark:text-white md:text-md transition-all lg:text-md" href="https://github.com/Japhet1/devjobs-app" target="_blank" rel="noreferrer"><h1>Source Code</h1><BsBoxArrowUpRight/></a></button>

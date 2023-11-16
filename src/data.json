@@ -75,7 +75,8 @@
                 "stack": [
                     {"item": "JavaScript"},
                     {"item": "React"},
-                    {"item": "Bootstrap"},
+                    {"item": "Vite"},
+                    {"item": "Tailwind"},
                     {"item": "Node JS"},
                     {"item": "Express JS"},
                     {"item": "MongoDB"}
@@ -88,7 +89,7 @@
                 "stack": [
                     {"item": "JavaScript"},
                     {"item": "Next JS"},
-                    {"item": "Tailwind CSS"}   
+                    {"item": "Tailwind"}   
                 ]
             },
             {
@@ -100,7 +101,7 @@
                     {"item": "React"},
                     {"item": "Vite"},
                     {"item": "Json data"},
-                    {"item": "Tailwind CSS"}   
+                    {"item": "Tailwind"}   
                 ]
             },
             {
@@ -111,7 +112,7 @@
                     {"item": "TypeScript"},
                     {"item": "Next JS"},
                     {"item": "Prisma"},
-                    {"item": "Tailwind CSS"},
+                    {"item": "Tailwind"},
                     {"item": "PostgreSQL"}   
                 ]
             }
