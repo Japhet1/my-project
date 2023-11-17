@@ -71,7 +71,7 @@
             {
                 "name": "Attendance App",
                 "description": "Devjobs-app is a web application where someone can search for different developer and engineer jobs. You can search by filtering base on company, position, and country.",
-                "src": "devjob-app.jpg",
+                "src": "attendance.jpg",
                 "stack": [
                     {"item": "JavaScript"},
                     {"item": "React"},
