@@ -61,6 +61,8 @@
                 "name": "Devjobs Web App",
                 "description": "Devjobs-app is a web application where someone can search for different developer and engineer jobs. You can search by filtering base on company, position, and country.",
                 "src": "devjob-app.jpg",
+                "code": "https://github.com/Japhet1/devjobs-app",
+                "link": "https://devjobs-web-app-seven.vercel.app/",
                 "stack": [
                     {"item": "JavaScript"},
                     {"item": "React"},
@@ -72,6 +74,8 @@
                 "name": "Attendance App",
                 "description": "Devjobs-app is a web application where someone can search for different developer and engineer jobs. You can search by filtering base on company, position, and country.",
                 "src": "attendance.jpg",
+                "code": "https://github.com/Japhet1/Attendance-app",
+                "link": "https://attendance-app-client.vercel.app/",
                 "stack": [
                     {"item": "JavaScript"},
                     {"item": "React"},
@@ -86,6 +90,8 @@
                 "name": "KD-Horizon",
                 "description": "Devjobs-app is a web application where someone can search for different developer and engineer jobs. You can search by filtering base on company, position, and country.",
                 "src": "kd-horizon1.jpg",
+                "code": "https://github.com/Japhet1/KD-Horizon",
+                "link": "https://kd-horizon.vercel.app/",
                 "stack": [
                     {"item": "JavaScript"},
                     {"item": "Next JS"},
@@ -96,6 +102,7 @@
                 "name": "Gunstein.dev",
                 "description": "Devjobs-app is a web application where someone can search for different developer and engineer jobs. You can search by filtering base on company, position, and country.",
                 "src": "gunstein.dev1.jpg",
+                "code": "https://github.com/Japhet1/my-project",
                 "stack": [
                     {"item": "JavaScript"},
                     {"item": "React"},
@@ -108,6 +115,8 @@
                 "name": "Quiz-app",
                 "description": "Devjobs-app is a web application where someone can search for different developer and engineer jobs. You can search by filtering base on company, position, and country.",
                 "src": "quiz-app.jpg",
+                "code": "https://github.com/Japhet1/quiz-app",
+                "link": "https://quiz-app-seven-pink.vercel.app/",
                 "stack": [
                     {"item": "TypeScript"},
                     {"item": "Next JS"},

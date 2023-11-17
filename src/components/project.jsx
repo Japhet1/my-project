@@ -26,8 +26,9 @@ const Project = ({ projectData }) => {
                         {project.stack.map((project, id) => <h1 key={id} className="py-1 px-2 bg-gray-100 dark:bg-blue-950  md:bg-gray-100 md:dark:bg-blue-950 lg:bg-white lg:dark:bg-blue-950 rounded-md font-semibold">{project.item}</h1>)}
                     </div>
                     <div className="flex md:flex lg:flex justify-center my-5">
-                        <button><a className="py-2 px-4 space-x-2 flex md:p-2 lg:px-4 items-bottom text-blue-950 font-semibold dark:text-white md:text-md transition-all lg:text-md" href="https://github.com/Japhet1/devjobs-app" target="_blank" rel="noreferrer"><h1>Source Code</h1><BsBoxArrowUpRight/></a></button>
-                        <button><a  className="py-2 px-4 space-x-2 flex md:p-2 lg:px-4 items-bottom text-blue-950 font-semibold dark:text-white md:text-md transition-all lg:text-md" href="https://devjobs-web-app-seven.vercel.app/" target="_blank" rel="noreferrer"><h1>Deploy link</h1><BsBoxArrowUpRight/></a></button>
+                        <button><a className="py-2 px-4 space-x-2 flex md:p-2 lg:px-4 items-bottom text-blue-950 font-semibold dark:text-white md:text-md transition-all lg:text-md" href={project.code} target="_blank" rel="noreferrer"><h1>Source Code</h1><BsBoxArrowUpRight/></a></button>
+                        <button><a  className="py-2 px-4 space-x-2 flex md:p-2 lg:px-4 items-bottom text-blue-950 font-semibold dark:text-white md:text-md transition-all lg:text-md" href={project.link}
+                target="_blank" rel="noreferrer"><h1>Deploy link</h1><BsBoxArrowUpRight/></a></button>
                     </div>
                 </div>
             ))}
