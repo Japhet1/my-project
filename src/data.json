@@ -41,7 +41,10 @@
             },
             {
                 "name": "Database",
-                "stack": [ "MongoDB", "PostgreSQL"]
+                "stack": [  
+                "MongoDB", 
+                "PostgreSQL"
+                ]
             },
             {
                 "name": "Design",
