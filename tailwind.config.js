@@ -11,7 +11,7 @@ export default {
         gruppo: "Gruppo"
       },
       backgroundImage: {
-        hero: "url('/5.jpg')"
+        hero: "url('/4.jpg')"
       }
      
     },
