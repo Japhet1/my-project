@@ -94,7 +94,7 @@
                 "description": "KD-Horizon is a comprehensive website showcasing a diverse range of services provided by the company. Through a user-friendly interface, the website effectively communicates the company's dedication to agriculture, animal husbandry, and reliable transport services.",
                 "src": "kd-horizon1.jpg",
                 "code": "https://github.com/Japhet1/KDHORIZON",
-                "link": "https://kdhorizon-elompassah81-gmailcom.vercel.app/",
+                "link": "https://kdhorizon.vercel.app/",
                 "stack": [
                     {"item": "JavaScript"},
                     {"item": "React"},
