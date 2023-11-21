@@ -62,7 +62,7 @@
         "project": [
             {
                 "name": "Devjobs Web App",
-                "description": "Devjobs-app is a web application where someone can search for different developer and engineer jobs. You can search by filtering base on company, position, and country.",
+                "description": "Devjobs-app is a platform designed for recruitment and placement of software developers and engineers. The app serves as a centralized hub for employers to post job listings tailored to these roles, providing comprehensive details to attract suitable candidates.",
                 "src": "devjob-app.jpg",
                 "code": "https://github.com/Japhet1/devjobs-app",
                 "link": "https://devjobs-web-app-seven.vercel.app/",
@@ -75,7 +75,7 @@
             },
             {
                 "name": "Attendance App",
-                "description": "Devjobs-app is a web application where someone can search for different developer and engineer jobs. You can search by filtering base on company, position, and country.",
+                "description": "Attendance App is a simple app designed to streamlines attendance management by offering a user-friendly registration process, real-time visibility into attendance status, and a simple sign-out mechanism for an overall efficient and user-centric experience.",
                 "src": "attendance.jpg",
                 "code": "https://github.com/Japhet1/Attendance-app",
                 "link": "https://attendance-app-client.vercel.app/",
@@ -90,8 +90,8 @@
                 ]
             },
             {
-                "name": "KD-Horizon",
-                "description": "Devjobs-app is a web application where someone can search for different developer and engineer jobs. You can search by filtering base on company, position, and country.",
+                "name": "KD-Horizon website",
+                "description": "KD-Horizon is a comprehensive website showcasing a diverse range of services provided by the company. Through a user-friendly interface, the website effectively communicates the company's dedication to agriculture, animal husbandry, and reliable transport services.",
                 "src": "kd-horizon1.jpg",
                 "code": "https://github.com/Japhet1/KDHORIZON",
                 "link": "https://kdhorizon-elompassah81-gmailcom.vercel.app/",
@@ -104,7 +104,7 @@
             },
             {
                 "name": "Gunstein.dev",
-                "description": "Devjobs-app is a web application where someone can search for different developer and engineer jobs. You can search by filtering base on company, position, and country.",
+                "description": "Gunstein.dev is my personal portfolio website, designed to serve as a comprehensive showcase of my skills, development projects, educational background and personal details. It acts as a dynamic hub, providing a glimpse into my professional journey and allowing for a deeper understanding of the skills and experiences that define me.",
                 "src": "gunstein.dev1.jpg",
                 "code": "https://github.com/Japhet1/my-project",
                 "stack": [
@@ -117,7 +117,7 @@
             },
             {
                 "name": "Quiz-app",
-                "description": "Devjobs-app is a web application where someone can search for different developer and engineer jobs. You can search by filtering base on company, position, and country.",
+                "description": "Quiz-app is a responsive web application designed to allow users answer questions and submit their responses. NB: IN PROGRESS!!",
                 "src": "quiz-app.jpg",
                 "code": "https://github.com/Japhet1/quiz-app",
                 "link": "https://quiz-app-seven-pink.vercel.app/",
