@@ -114,21 +114,8 @@
                     {"item": "Json data"},
                     {"item": "Tailwind"}   
                 ]
-            },
-            {
-                "name": "Quiz-app",
-                "description": "Quiz-app is a responsive web application designed to allow users answer questions and submit their responses. NB: IN PROGRESS!!",
-                "src": "quiz-app.jpg",
-                "code": "https://github.com/Japhet1/quiz-app",
-                "link": "https://quiz-app-seven-pink.vercel.app/",
-                "stack": [
-                    {"item": "TypeScript"},
-                    {"item": "Next JS"},
-                    {"item": "Prisma"},
-                    {"item": "Tailwind"},
-                    {"item": "PostgreSQL"}   
-                ]
             }
+           
         ],
         "education": {
             
