@@ -8,7 +8,7 @@ export default {
     extend: {
       fontFamily: {
         rajdhani: "Rajdhani",
-        gruppo: "Signika"
+        gruppo: "Rowdies"
       },
       backgroundImage: {
         hero: "url('/4.jpg')"
