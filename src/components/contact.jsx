@@ -17,7 +17,7 @@ const Contact = ({ contactData }) => {
                             : ""
                         } 
                     </div>
-                    <span className="text-lg md:text-xl lg:text-2xl font-semibold dark:text-white">{contact.content}</span>
+                    <span className="text-lg md:text-xl lg:text-2xl font-normal dark:text-white">{contact.content}</span>
                 </div>
             ))}        
         </div>

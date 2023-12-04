@@ -20,7 +20,7 @@ const Skill = ({ skillData }) => {
                             : '' }
                             <h1 className="text-lg md:text-xl lg:text-2xl font-bold">{skill.name}</h1>
                         </div>
-                        <div className="flex flex-wrap gap-5 my-5 md:text-lg lg:text-md font-semibold text-green-800 dark:text-slate-300">
+                        <div className="flex flex-wrap gap-5 my-5 md:text-lg lg:text-md text-green-800 dark:text-slate-300 font-normal">
                         {skill.stack.map((stack, id) => <div className="flex items-end" key={id}><BsDot className="md:text-lg lg:text-2xl"/><h1>{stack}</h1></div>  )}
                         </div>
                     </div>

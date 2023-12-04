@@ -18,7 +18,7 @@ const Project = ({ projectData }) => {
                         <div className="my-4 px-4">
                             <div><h1 className="text-green-800 dark:text-white text-xl md:text-2xl lg:text-2xl font-bold">{project.name}</h1></div>
                             <div className="mt-4 px-4">
-                                <p className="text-md md:text-lg lg:text-lg font-semibold text-slate-600 dark:text-slate-300 text-center leading-8">{project.description}</p>
+                                <p className="text-md md:text-lg lg:text-lg text-slate-600 dark:text-slate-300 text-center leading-8 font-normal">{project.description}</p>
                             </div>
                         </div>
                     </div>

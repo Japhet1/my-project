@@ -23,7 +23,7 @@ const Education = ({ educationData }) => {
                         <div>
                             <h1 className="text-xl md:text-2xl lg:text-2xl font-bold mb-4">{education.name}</h1>
                         </div>
-                        <div className="leading-8 text-lg md:text-lg lg:text-lg font-semibold text-green-950 dark:text-slate-300">
+                        <div className="leading-8 text-lg md:text-lg lg:text-lg font-normal text-green-950 dark:text-slate-300">
                             <p>{education.company}</p>
                             <p>{education.date}</p>
                             <p>{education.country}</p>
@@ -37,7 +37,7 @@ const Education = ({ educationData }) => {
                         <div key={index} className="">
                             <div className=""><h1 className="text-lg md:text-xl lg:text-xl font-bold">{education.name}</h1></div>
                             <div className="flex flex-wrap items-center gap-4 mb-5">
-                                {education.items.map((education, id) => <p key={id} className="flex items-center text-md md:text-lg lg:text-lg gap-2 font-semibold text-green-950 dark:text-slate-300"><BsDot/>{education.label}</p>)}  
+                                {education.items.map((education, id) => <p key={id} className="flex items-center text-md md:text-lg lg:text-lg gap-2 font-normal text-green-950 dark:text-slate-300"><BsDot/>{education.label}</p>)}  
                              </div>
                         </div>
                     ))}

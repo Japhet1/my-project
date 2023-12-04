@@ -20,10 +20,10 @@ function Header({ headerData }) {
           <div className=""><BsLinkedin/></div>        
         </div>
         <div className="px-8 md:px-20 lg:px-40 text-center">
-          <div className="flex gap-5 text-md md:text-lg lg:text-xl font-semibold leading-8 dark:text-white"><h1 className="w-48 hidden text-3xl">{`{ /**`}</h1><p>{headerData.summary}</p><h1 className="text-3xl hidden">{`*/}`}</h1></div>
+          <div className="flex gap-5 text-md md:text-lg lg:text-xl leading-8 dark:text-white font-normal"><h1 className="w-48 hidden text-3xl">{`{ /**`}</h1><p>{headerData.summary}</p><h1 className="text-3xl hidden">{`*/}`}</h1></div>
         </div>
         
-        <div className="flex justify-center items-center mt-5 p-5 gap-10">
+        <div className="flex justify-center items-center mt-5 p-5 gap-10 font-normal">
           <button><a className="flex justify-center items-bottom gap-4 md:px-10 md:py-2 p-2 text-md md:text-lg lg:text-xl bg-green-800 lg:hover:bg-cyan-100 hover:shadow-lg text-white hover:text-green-800 transition-all rounded-md font-semibold" href="https://github.com/Japhet1" target="_blank" rel="noreferrer"><BsGithub className="text-xl md:text-2xl lg:text-2xl"/>Repository</a></button>
           <button><a className="flex justify-center items-bottom gap-4 md:px-10 md:py-2 p-2 text-md md:text-lg lg:text-xl bg-green-800 lg:hover:bg-cyan-100 hover:shadow-lg text-white hover:text-green-800 transition-all rounded-md font-semibold" href="/CV-Passah_Japhet.pdf" download="CV-Passah_Japhet.pdf">Resume<BsDownload className="text-xl md:text-2xl lg:text-2xl"/></a></button>
         </div>
