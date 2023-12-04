@@ -3,7 +3,7 @@
         "nav" : {
             "name": "Gunstein.dev",
             "menu": [
-                {"link": "About me", "href": "#about"},
+                {"link": "About", "href": "#about"},
                 {"link": "Skills", "href": "#skill"},
                 {"link": "Projects", "href": "#project"},
                 {"link": "Education", "href": "#education"},
@@ -14,11 +14,11 @@
         "header": {
             "welcome": "Hello! i'm Japhet Passah",
             "position": "Software Developer.",
-            "summary": "Enthusiastic and detail-oriented Junior Software Developer who is eager to contribute to dynamic projects and learn from experienced mentors in the software development industry."
+            "summary": "An enthusiastic and detail-oriented Junior Software Developer who is eager to contribute to dynamic projects and learn from experienced mentors in the software development industry."
         },
         "skill": [
             {
-                "name": "Front-end",
+                "name": "Frontend",
                 "stack": [
                 "Html",
                 "CSS",
@@ -31,7 +31,7 @@
                 ]
             },
             {
-                "name": "Back-end",
+                "name": "Backend",
                 "stack": [
                 "Node.JS",
                 "Express.JS",
@@ -42,8 +42,7 @@
             {
                 "name": "Database",
                 "stack": [  
-                "MongoDB", 
-                "PostgreSQL"
+                "MongoDB"
                 ]
             },
             {
@@ -104,7 +103,7 @@
             },
             {
                 "name": "Gunstein.dev",
-                "description": "Gunstein.dev is my personal portfolio website, designed to serve as a comprehensive showcase of my skills, development projects, educational background and personal details. It acts as a dynamic hub, providing a glimpse into my professional journey and allowing for a deeper understanding of the skills and experiences that define me.",
+                "description": "Gunstein.dev is my personal portfolio website, designed to serve as a comprehensive showcase of my skills, development projects, educational background and personal details.",
                 "src": "gunstein.dev1.jpg",
                 "code": "https://github.com/Japhet1/my-project",
                 "stack": [
@@ -152,7 +151,7 @@
           
       
                 "online": {
-                    "name": "Youtube channels Tutorial",
+                    "name": "Youtube Tutorials",
                     "content": [ 
                         {
                             "name": "Net Ninja:",
@@ -183,7 +182,7 @@
                 "name": "Languages",
                 "content": [
                     {"item": "English"},
-                    {"item": "French"},
+                    {"item": "- French -"},
                     {"item": "German"}
                 ]
             },
