@@ -25,7 +25,7 @@ const Project = ({ projectData }) => {
                     <div className="font-bold text-xl"><h1>Stack:</h1></div>
                     <div className="flex flex-wrap my-4 md:my-10 lg:my-4 px-4 gap-2 justify-center items-center md:text-sm lg:text-sm">
                         
-                        {project.stack.map((project, id) => <h1 key={id} className="py-1 px-2 bg-green-100 dark:bg-cyan-800  md:bg-green-100 md:dark:bg-green-800 lg:bg-white lg:dark:bg-green-800 rounded-md font-semibold">{project.item}</h1>)}
+                        {project.stack.map((project, id) => <h1 key={id} className="py-1 px-2 bg-green-100 dark:bg-cyan-800  md:bg-green-100 md:dark:bg-green-800 lg:bg-white lg:dark:bg-green-800 rounded-md font-normal">{project.item}</h1>)}
                     </div>
                     <div className="flex md:flex lg:flex justify-center my-5">
                         <button><a className="py-2 px-4 space-x-2 flex md:p-2 lg:px-4 items-bottom text-green-800 font-semibold dark:text-white md:text-md transition-all lg:text-md" href={project.code} target="_blank" rel="noreferrer"><h1>Source Code</h1><BsBoxArrowUpRight/></a></button>
