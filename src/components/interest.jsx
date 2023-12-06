@@ -10,7 +10,7 @@ const Interest = ({ interestData }) => {
             {interestData.map((interest, index) => (
                 <div key={index} className="text-start lg:flex lg:flex-wrap items-center lg:py-5 dark:text-white">
                     <div className="text-lg md:text-xl lg:text-2xl font-bold my-5"><h1>{interest.name}:</h1></div>
-                    {interest.content.map((content, id) => <div key={id} className="text-md md:text-lg lg:text-xl font-normal text-green-950 dark:text-slate-300"><h1 className="ms-4">{content.item}</h1></div>)}
+                    {interest.content.map((content, id) => <div key={id} className="text-md md:text-lg lg:text-xl font-normal text-slate-600 dark:text-slate-300"><h1 className="ms-4">{content.item}</h1></div>)}
                 </div>
             ) )} 
         </div>
