@@ -119,7 +119,7 @@
                 "stack": [
                     {"item": "Typescript"},
                     {"item": "React - Vite"},
-                    {"item": "React-redux/@react-toolkit"},
+                    {"item": "React-redux"},
                     {"item": "Json-server"},
                     {"item": "Tailwind"}   
                 ]
