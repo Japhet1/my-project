@@ -25,6 +25,7 @@
                 "TypeScript",
                 "JavaScript",
                 "React",
+                "React-redux",
                 "Next.JS",
                 "Tailwind",
                 "Bootstrap"
@@ -35,8 +36,7 @@
                 "stack": [
                 "Node.JS",
                 "Express.JS",
-                "Rest API",
-                "Prisma"
+                "Rest API"
                 ]
             },
             {
@@ -80,8 +80,7 @@
                 "link": "https://attendance-app-client.vercel.app/",
                 "stack": [
                     {"item": "JavaScript"},
-                    {"item": "React"},
-                    {"item": "Vite"},
+                    {"item": "React - Vite"},
                     {"item": "Tailwind"},
                     {"item": "Node JS"},
                     {"item": "Express JS"},
@@ -96,8 +95,7 @@
                 "link": "https://kdhorizon.vercel.app/",
                 "stack": [
                     {"item": "JavaScript"},
-                    {"item": "React"},
-                    {"item": "Vite"},
+                    {"item": "React - Vite"},
                     {"item": "Tailwind"}   
                 ]
             },
@@ -108,9 +106,21 @@
                 "code": "https://github.com/Japhet1/my-project",
                 "stack": [
                     {"item": "JavaScript"},
-                    {"item": "React"},
-                    {"item": "Vite"},
+                    {"item": "React - Vite"},
                     {"item": "Json data"},
+                    {"item": "Tailwind"}   
+                ]
+            },
+            {
+                "name": "TodoApp",
+                "description": "Gunstein.dev is my personal portfolio website, designed to serve as a comprehensive showcase of my skills, development projects, educational background and personal details.",
+                "src": "gunstein.dev1.jpg",
+                "code": "https://github.com/Japhet1/my-project",
+                "stack": [
+                    {"item": "Typescript"},
+                    {"item": "React - Vite"},
+                    {"item": "React-redux/@react-toolkit"},
+                    {"item": "Json-server"},
                     {"item": "Tailwind"}   
                 ]
             }
