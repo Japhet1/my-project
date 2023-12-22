@@ -113,9 +113,10 @@
             },
             {
                 "name": "TodoApp",
-                "description": "Gunstein.dev is my personal portfolio website, designed to serve as a comprehensive showcase of my skills, development projects, educational background and personal details.",
-                "src": "gunstein.dev.jpg",
-                "code": "https://github.com/Japhet1/my-project",
+                "description": "",
+                "src": "todo.jpg",
+                "code": "https://github.com/Japhet1/Task-manager",
+                "link": "https://gunsteindev-task-manager.vercel.app/",
                 "stack": [
                     {"item": "Typescript"},
                     {"item": "React - Vite"},
