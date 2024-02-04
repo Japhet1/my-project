@@ -110,20 +110,6 @@
                     {"item": "Json data"},
                     {"item": "Tailwind"}   
                 ]
-            },
-            {
-                "name": "TodoApp",
-                "description": "",
-                "src": "todo.jpg",
-                "code": "https://github.com/Japhet1/Task-manager",
-                "link": "https://gunsteindev-task-manager.vercel.app/",
-                "stack": [
-                    {"item": "Typescript"},
-                    {"item": "React - Vite"},
-                    {"item": "React-redux"},
-                    {"item": "Json-server"},
-                    {"item": "Tailwind"}   
-                ]
             }
            
         ],
