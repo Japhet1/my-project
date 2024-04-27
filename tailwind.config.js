@@ -7,8 +7,10 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        rajdhani: "Rajdhani",
-        gruppo: "Mitr"
+        // rajdhani: "Rajdhani",
+        // gruppo: "Mitr",
+        // gruppo: "corbel",
+        poppins: "Montserrat"
       },
       backgroundImage: {
         hero: "url('/4.jpg')"

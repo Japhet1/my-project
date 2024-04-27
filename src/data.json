@@ -20,13 +20,11 @@
             {
                 "name": "Frontend",
                 "stack": [
-                "Html",
-                "CSS",
                 "TypeScript",
                 "JavaScript",
-                "React",
+                "React JS",
+                "Angular JS",
                 "React-redux",
-                "Next.JS",
                 "Tailwind",
                 "Bootstrap"
                 ]
@@ -179,7 +177,7 @@
                 "name": "Languages",
                 "content": [
                     {"item": "English"},
-                    {"item": "- French -"},
+                    {"item": "French"},
                     {"item": "German"}
                 ]
             },

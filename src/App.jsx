@@ -25,7 +25,7 @@ function App() {
   }
 
   return (
-      <main className={`${darkMode ? "dark" : ""}`}>
+      <main className={`${darkMode ? "dark" : ""} font-poppins`}>
         <NavBar darkMode={darkMode} toggleDarkMode={toggleDarkMode} navData={navData}/>
         <Header headerData={headerData}/>
         <Skill skillData={skillData}/>
