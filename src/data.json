@@ -110,7 +110,7 @@
             {
                 "name": "Portfolio",
                 "description": "Gunstein.dev is my personal portfolio website, designed to serve as a comprehensive showcase of my skills, development projects, educational background and personal details.",
-                "src": "gunstein.dev.jpg",
+                "src": "gunstein.dev.png",
                 "code": "https://github.com/Japhet1/my-project",
                 "stack": [
                     {"item": "JavaScript"},
