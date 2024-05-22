@@ -6,13 +6,13 @@ const Project = ({ projectData }) => {
         <div>
             <h1 className="text-[#003285] text-3xl md:text-4xl lg:text-6xl dark:text-slate-400 font-bold">Personal Projects</h1>
         </div>
-        <div className="flex flex-wrap my-16 space-x-5 md:text-center drop-shadow-xl">
+        <div className="flex my-16 space-x-5 md:text-center drop-shadow-xl">
             {projectData.map((project, index) => (
                 <div key={index} className="mb-10 md:mb-16 lg:mb-0 dark:text-white bg-[#2A629A] dark:bg-slate-800 rounded-lg">
                    
                     <div className="grid ">
                         <div className="col-span-6">
-                            <div className="md:max-w-lg lg:w-full transition-all bg-inherit" style={{}}>
+                            <div className="md:max-w-lg lg:max-w-lg lg:w-full transition-all bg-inherit" style={{}}>
                                 <img className=" lg:w-full lg:h-72 " src={`/${project.src}`} alt="first project" />
                             </div>
                         </div>
