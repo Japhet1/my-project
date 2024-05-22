@@ -8,10 +8,10 @@
 @tailwind utilities;
 
 body {
-  @apply text-center bg-white;
+  @apply text-center bg-slate-50;
 }
 
 .dark {
-  @apply bg-black
+  @apply bg-slate-900
 }
 

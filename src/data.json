@@ -5,6 +5,7 @@
             "menu": [
                 {"link": "About", "href": "#about"},
                 {"link": "Skills", "href": "#skill"},
+                {"link": "Experience", "href": "#experience"},
                 {"link": "Projects", "href": "#project"},
                 {"link": "Education", "href": "#education"},
                 {"link": "Interest", "href": "#interest"},
@@ -14,7 +15,7 @@
         "header": {
             "welcome": "Hello! i'm Japhet Passah",
             "position": "Web Developer.",
-            "summary": "An enthusiastic and detail-oriented Web Developer who is eager to contribute to dynamic projects and learn from experienced mentors in the software development industry."
+            "summary": "A passionate web developer with a knack for creating seamless user experiences and efficient back-end functionalities. My expertise lies in crafting responsive designs that adapt to various devices and screen sizes, ensuring an engaging user experience. With a solid foundation in both front-end and back-end development, I have honed my skills in HTML, CSS, JavaScript, and modern frameworks like React, Next Js and Angular."
         },
         "skill": [
             {
@@ -56,9 +57,33 @@
                 ]
             }
         ],
+        "experience": [
+            {
+                "year": "January/2024 - to date",
+                "company": "iKolilu Limited",
+                "location": "Accra - Ghana",
+                "title": "Frontend Web Developer",
+                "description": [
+                    "Work closely with backend developers to integrate the frontend and backend components, ensuring smooth communication and functionality",
+                    "Design and implement visually appealing and responsive user interfaces",
+                    "Develop and maintain the layout, design, and appearance of the web application"
+                ]
+            },
+            {
+                "year": "2023",
+                "company": "Self-employe",
+                "location": "Accra - Ghana",
+                "title": "Freelance",
+                "description": [
+                    "Work closely with backend developers to integrate the frontend and backend components, ensuring smooth communication and functionality",
+                    "Design and implement visually appealing and responsive user interfaces",
+                    "Develop and maintain the layout, design, and appearance of the web application"
+                ]
+            }
+        ],
         "project": [
             {
-                "name": "Devjobs Web App",
+                "name": "Web App",
                 "description": "Devjobs-app is a platform designed for recruitment and placement of software developers and engineers. The app serves as a centralized hub for employers to post job listings tailored to these roles, providing comprehensive details to attract suitable candidates.",
                 "src": "devjob-app.jpg",
                 "code": "https://github.com/Japhet1/devjobs-app",
@@ -71,22 +96,7 @@
                 ]
             },
             {
-                "name": "Attendance App",
-                "description": "Attendance App is a simple app designed to streamlines attendance management by offering a user-friendly registration process, real-time visibility into attendance status, and a simple sign-out mechanism for an overall efficient and user-centric experience.",
-                "src": "attendance.jpg",
-                "code": "https://github.com/Japhet1/Attendance-app",
-                "link": "https://attendance-app-client.vercel.app/",
-                "stack": [
-                    {"item": "JavaScript"},
-                    {"item": "React - Vite"},
-                    {"item": "Tailwind"},
-                    {"item": "Node JS"},
-                    {"item": "Express JS"},
-                    {"item": "MongoDB"}
-                ]
-            },
-            {
-                "name": "KD-Horizon website",
+                "name": "Website",
                 "description": "KD-Horizon is a comprehensive website showcasing a diverse range of services provided by the company. Through a user-friendly interface, the website effectively communicates the company's dedication to agriculture, animal husbandry, and reliable transport services.",
                 "src": "kd-horizon.jpg",
                 "code": "https://github.com/Japhet1/KDHORIZON",
@@ -98,7 +108,7 @@
                 ]
             },
             {
-                "name": "Gunstein.dev",
+                "name": "Portfolio",
                 "description": "Gunstein.dev is my personal portfolio website, designed to serve as a comprehensive showcase of my skills, development projects, educational background and personal details.",
                 "src": "gunstein.dev.jpg",
                 "code": "https://github.com/Japhet1/my-project",

@@ -1,0 +1,15 @@
+{
+                "name": "Attendance App",
+                "description": "Attendance App is a simple app designed to streamlines attendance management by offering a user-friendly registration process, real-time visibility into attendance status, and a simple sign-out mechanism for an overall efficient and user-centric experience.",
+                "src": "attendance.jpg",
+                "code": "https://github.com/Japhet1/Attendance-app",
+                "link": "https://attendance-app-client.vercel.app/",
+                "stack": [
+                    {"item": "JavaScript"},
+                    {"item": "React - Vite"},
+                    {"item": "Tailwind"},
+                    {"item": "Node JS"},
+                    {"item": "Express JS"},
+                    {"item": "MongoDB"}
+                ]
+            },
