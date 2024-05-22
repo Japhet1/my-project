@@ -32,7 +32,7 @@ const Experience = ({ experienceData }) => {
                     </div>
                     <hr/>
                 </li>
-                <li>
+                {/* <li>
                     <div className="timeline-middle">
                         <FaCircleCheck className="my-2"/>
                     </div>
@@ -52,7 +52,7 @@ const Experience = ({ experienceData }) => {
                         </div>
                     </div>
                     <hr/>
-                </li>
+                </li> */}
                 {/* <li>
                     <hr />
                     <div className="timeline-middle">
