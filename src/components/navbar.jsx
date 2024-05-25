@@ -4,7 +4,7 @@ import { BsSunFill, BsMoonFill } from "react-icons/bs";
 
 const Navbar = ({ toggleDarkMode, darkMode, navData }) => {
   return (
-    <nav className="mx-auto md:mx-5 lg:mx-10 top-0 lg:top-3 rounded-md">
+    <nav className="mx-auto md:mx-5 lg:mx-10 top-0 lg:top-3 rounded-md drop-shadow-2xl">
       <div className="flex justify-between items-bottom md:py-4 lg:py-4">
         <div>
           <a href=""><h1 className="text-xl md:text-2xl lg:text-3xl text-center items bottom text-[#003285] dark:text-white px-3 py-2 rounded-xl font-bold">{navData.name}</h1></a>  

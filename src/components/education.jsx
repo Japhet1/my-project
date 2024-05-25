@@ -2,11 +2,11 @@ import { BsDot, BsBoxArrowUpRight } from "react-icons/bs";
 
 const Education = ({ educationData }) => {
   return (
-    <main id="education" className="lg:text-center md:py-10 mt-10 md:mx-10 scroll-mt-28 scroll-smooth">
+    <main id="education" className="lg:text-center md:py-10 mt-10 md:mx-10 scroll-mt-28 scroll-smooth drop-shadow-2xl">
         <div>
             <h1 className="text-[#003285] font-bold text-3xl md:text-4xl lg:text-6xl dark:text-slate-400">Education and Training</h1>
         </div>
-        <div className="my-16 drop-shadow-xl">
+        <div className="my-16 ">
             <div className="lg:grid grid-cols-12 gap-2 dark:text-white">
                 {educationData.physical.map((education, index) => (
                     <div key={index} 

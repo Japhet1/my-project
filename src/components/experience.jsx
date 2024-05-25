@@ -5,11 +5,11 @@ const Experience = ({ experienceData }) => {
 
     // console.log(experienceData[0].description)
   return (
-    <main id="experience" className=" md:py-10 font-poppins md:p-10 mt-10 md:mx-10 scroll-mt-28 scroll-smooth">
+    <main id="experience" className=" md:py-10 font-poppins md:p-10 mt-10 md:mx-10 scroll-mt-28 scroll-smooth drop-shadow-2xl">
         <div className="">
             <h1 className="text-[#003285] text-3xl md:text-4xl lg:text-6xl font-bold dark:text-slate-400">Experience</h1>
         </div>
-        <div className="my-16 text-black dark:text-white drop-shadow-2xl">
+        <div className="my-16 text-black dark:text-white">
             <ul className="timeline timeline-snap-icon max-md:timeline-compact timeline-vertical text-[#2A629A] dark:text-slate-400">
                 <li>
                     <div className="timeline-middle">

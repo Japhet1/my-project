@@ -11,7 +11,9 @@ export default {
         // rajdhani: "Rajdhani",
         // gruppo: "Mitr",
         // gruppo: "corbel",
-        poppins: "Montserrat"
+        // poppins: "Montserrat",
+        // poppins: "gruppo",
+        poppins: "Mitr"
       },
       backgroundImage: {
         hero: "url('/4.jpg')"
