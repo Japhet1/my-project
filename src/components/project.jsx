@@ -26,10 +26,10 @@ const Project = ({ projectData }) => {
                         </div>
                         <div className="flex justify-center items-center gap-2 hidden-item absolute inset-0 bg-black bg-opacity-50 rounded-xl opacity-0 invisible transition-opacity duration-300 ease-in-out group-hover:opacity-100 group-hover:visible">
                             <a className=" md:p-2 lg:px-4 items-bottom rounded-lg text-white font-semibold dark:text-white md:text-md transition-all lg:text-md" href={project.code} target="_blank" rel="noreferrer">
-                                <div className="text-[#003285] bg-white p-2 rounded-full drop-shadow-2xl"><SiGithub className="text-4xl" /></div>
+                                <div className="text-[#003285] bg-white dark:bg-slate-800 dark:text-white p-2 rounded-full drop-shadow-2xl"><SiGithub className="text-4xl" /></div>
                             </a>
                             <a className=" md:p-2 lg:px-4 items-bottom rounded-lg text-white font-semibold dark:text-white md:text-md transition-all lg:text-md" href={project.link} target="_blank" rel="noreferrer">
-                                <div className="text-[#003285] bg-white p-2 rounded-full drop-shadow-2xl"><SiVercel className="text-4xl" /></div>
+                                <div className="text-[#003285] bg-white dark:bg-slate-800 dark:text-white p-2 rounded-full drop-shadow-2xl"><SiVercel className="text-4xl" /></div>
                             </a>
                         </div>
                     </div>
