@@ -1,6 +1,7 @@
 //import ScrollToTop from './ScrollToTop'
 import { BsTelephoneFill, BsWhatsapp, BsEnvelopeAtFill } from "react-icons/bs";
 import { BsInstagram, BsTwitter, BsLinkedin, BsTiktok } from "react-icons/bs";
+import { Link } from 'react-scroll';
 
 const Contact = ({ contactData, navData }) => {
   return (
@@ -30,9 +31,9 @@ const Contact = ({ contactData, navData }) => {
                 <a className="link link-hover">Jobs</a>
                 <a className="link link-hover">Press kit</a>
             </nav>  */}
-            <nav className="grid grid-flow-col text-lg md:text-xl lg:text-xl md:gap-5">
-                {navData.menu.map((menu, index) => <a key={index} href={menu.href} className="link link-hover"><h1>{menu.link}</h1></a>)} 
-            </nav>
+            <div className="hidden lg:flex items-center font-bold md:gap-5 lg:gap-10 text-white dark:text-white px-5 py-2 rounded-xl">
+                {navData.menu.map((menu, index) => <Link key={index} smooth={true} duration={800} to={menu.href} className="dark:hover:text-white dark:border-white cursor-pointer"><h1>{menu.link}</h1></Link>)} 
+            </div>
             <nav className="flex justify-center items-center my-3 p-5">
                 <div className="lg:flex md:flex md:flex-wrap md:gap-4  px-8 border-r">
                     {contactData.map((contact, index) => (
