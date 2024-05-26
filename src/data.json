@@ -3,13 +3,13 @@
         "nav" : {
             "name": "Gunstein.dev",
             "menu": [
-                {"link": "About", "href": "#about"},
-                {"link": "Skills", "href": "#skill"},
-                {"link": "Experience", "href": "#experience"},
-                {"link": "Projects", "href": "#project"},
-                {"link": "Education", "href": "#education"},
-                {"link": "Interest", "href": "#interest"},
-                {"link": "Contact", "href": "#contact"}
+                {"link": "About", "href": "about"},
+                {"link": "Skills", "href": "skill"},
+                {"link": "Experience", "href": "experience"},
+                {"link": "Projects", "href": "project"},
+                {"link": "Education", "href": "education"},
+                {"link": "Interest", "href": "interest"},
+                {"link": "Contact", "href": "contact"}
             ]
         },
         "header": {

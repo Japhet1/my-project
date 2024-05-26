@@ -12,10 +12,10 @@ const Education = ({ educationData }) => {
                     <div key={index} 
                         className={`
                         col-span-4
-                        ${education.company === "Amalitech" ?  "bg-white dark:bg-slate-800"
-                            : education.company === "Codecademy" ? "bg-white dark:bg-slate-800"
-                            : education.company === "Accra Institute of Technology" ? "bg-white dark:bg-slate-800"
-                            : education.company === "IPMC College of Technology" ? "bg-white dark:bg-slate-800"
+                        ${education.company === "Amalitech" ?  "bg-slate-100 dark:bg-slate-800"
+                            : education.company === "Codecademy" ? "bg-slate-200 dark:bg-slate-800"
+                            : education.company === "Accra Institute of Technology" ? "bg-slate-100 dark:bg-slate-800"
+                            : education.company === "IPMC College of Technology" ? "bg-slate-200 dark:bg-slate-800"
                             : ""
                         } 
                         text-left p-6 md:p-10 rounded-lg text-black
@@ -31,7 +31,7 @@ const Education = ({ educationData }) => {
                         </div>
                     </div>
                 ))}
-                <div  className="col-span-8 text-black bg-white dark:bg-slate-800 text-left p-6 md:p-10 lg:p-10 rounded-xl">
+                <div  className="col-span-8 text-black bg-slate-100 dark:bg-slate-800 text-left p-6 md:p-10 lg:p-10 rounded-xl">
                     <h1 className="text-xl md:text-2xl lg:text-2xl  dark:text-white font-semibold mb-4">{educationData.online.name}</h1>
                     {educationData.online.content.map((education, index) => (
                         <div key={index} className="">
