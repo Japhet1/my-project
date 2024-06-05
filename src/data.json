@@ -118,6 +118,19 @@
                     {"item": "Json data"},
                     {"item": "Tailwind"}   
                 ]
+            },
+            {
+                "name": "Actracker",
+                "description": "turning your to-do lists into triumphs and your goals into glorious achievements. Embrace efficiency, seize success, and let's make every day a masterpiece!",
+                "src": "actracker.png",
+                "code": "https://github.com/Japhet1/Task-manager",
+                "link": "https://actracker.vercel.app/",
+                "stack": [
+                    {"item": "JavaScript"},
+                    {"item": "React - Vite"},
+                    {"item": "Json data"},
+                    {"item": "Tailwind"}   
+                ]
             }
            
         ],
